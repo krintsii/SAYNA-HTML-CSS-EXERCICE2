@@ -1,0 +1,301 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-image: url(assets/img/seperator1-.jpg);
+    width: 100%;
+    display: inline  flex;
+    align-items: center;
+    text-align: center;
+    
+
+}
+ul{
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+li{
+    font-family:"Raleway", Arial, sans-serif;
+    padding:10px 50px;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: block;
+    color: white;
+}
+.img1 {
+    width: 300px;
+    align-items: center;
+    padding:0 80px 0 4px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+/* pour le get it now*/
+
+.get {
+    color: green;
+    text-decoration: underline;
+}
+
+/*pour le home et le features */
+
+.home {
+    text-decoration: none;
+}
+/*pour de premier partie de contenu*/
+
+.font1 {
+    background-image: url(assets/img/seperator1-.jpg);
+    color: #FFFFFF;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+	padding: 40px 0 0 0;
+    margin: 1px 0 0 0 ;	
+    overflow: hidden;
+    font-size: 30px;
+    height: 590px;
+}
+/* pour la police*/
+h1,p{
+    font-family:"Raleway", Arial, sans-serif; 
+}
+h6{
+    font-weight: 500;
+    font-size: 18px;
+    color:#7e7e7e;
+}
+p {
+    font-size: 28px;
+    color: black;
+}
+/*pour le bouton by now*/
+button{
+    background-color:#3d9f96;
+    border-radius: 30px;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px 50px;
+    margin-top: 40px;
+    
+} 
+/*pour image ordinateur */
+.img2 {
+    align-items: center;
+    margin-top: 10px;
+    justify-content: center;
+    width: auto;   
+}
+
+/*pour la deuxieme partie de contenue*/
+.font2{
+    background-color: #FFFFFF;
+    text-align: center;
+
+}
+/*pour le symbole*/
+.symbole {
+    display: inline-block;
+    align-items: center;
+    margin: 50px 50px 15px 50px;
+}
+ /* pour l'elant du symbole*/
+ .elant {
+     padding: 0 20px;
+ }
+/*font size*/
+.size {
+    font-size: 15px;
+    color: #3d9f96;
+    margin-bottom: 50px;
+}
+
+h2{
+    color: #FFFFFF;
+    font-size: 18px;
+    padding: 10px;
+    font-family: "Raleway", Arial, sans-serif;
+    font-weight: 400;
+    margin-top: 0.5px; 
+}
+h3 {
+    font-family: Helvetica, Arial, sans-serif, 'Raleway';
+    font-weight: 600;
+    font-size: 15px;
+}
+
+ /*pour le 3 colona avec phone*/
+
+ .div1{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    
+}
+
+/*pour le phone du centre*/
+figure{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+#sary{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+/*pour le contoure du phone*/
+
+.div12 {
+    width: 40%;
+}
+.div13 {
+    width: 20%;
+}
+.div14 {
+    width: 40%;
+}
+
+.gauche {
+    text-align: left;
+}
+.droite {
+    text-align: right;
+}
+
+/*pour les icones*/
+.flex{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 10px 0px;
+}    
+.block {
+    display: block;
+    float: left;
+}
+    
+/*pour la troisieme partie de contenue*/
+.font3{
+    background-image: url(assets/img/seperator2.jpg);
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+}
+/*pour le rond blanc*/
+.petitrond{
+    background-color: #FFFFFF;
+    margin: auto;
+    border-radius: 40px;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+}
+/*pour le quatriemme contenue*/
+.font4 {
+    padding: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    align-items: center; 
+}
+/*pour les 3 Screenshot*/
+.flex1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.flex11 {
+    padding: 0 60px 0 0 ; 
+    width: 25%;
+
+}
+
+/*pour le photo(grida)*/
+.grida {
+    position: relative;
+    padding: 0 90px 0 0;
+}
+.grida2 {
+    padding:0 0 0 80px ;
+}
+.pika {
+    position: absolute;
+    top: 35%;
+    right: 65%;
+}
+/*pour le 2 colonnes*/
+.flex2{
+    display: flex;
+    justify-content: flex-start  
+}
+/*pour le dernier contenu*/
+.font5 {
+    margin-left: 15%;
+    margin-right: 5%;
+    display: grid;
+    grid-template-columns: 40% 20% 35%;
+    justify-content: center;
+  
+    padding: auto;
+}
+/*footer*/
+.footer {
+    margin-left: 15%;
+    margin-right: 12%;   
+}
+.flex3{
+    display: flex;
+    justify-content: space-between;
+}
+
+h3{
+    font-size: 17px;
+    font-weight: 400;
+    font-family:"Raleway", Arial, sans-serif;
+}
+
+.icone {
+    padding:0 20px 0 10px;
+}
+
+/*pour le responsive*/
+
+@media (max-width:768px)
+
+{
+    .div1{
+        display:inline-block;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+      
+    }
+    .div12 {
+        width: 100%;
+    }
+    .div13 {
+        width: 100%;
+    }
+    .div14 {
+        width: 100%;
+    }
+    
+}
