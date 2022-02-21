@@ -9,6 +9,7 @@ nav{
     display: inline  flex;
     align-items: center;
     text-align: center;
+    padding: 20px 0 20px 0 ;
     
 
 }
@@ -37,6 +38,7 @@ a {
     color: white;
     text-decoration: none;
 }
+
 /* pour le get it now*/
 
 .get {
@@ -84,6 +86,7 @@ button{
     text-align: center;
     padding: 20px 50px;
     margin-top: 40px;
+    cursor: pointer;
     
 } 
 /*pour image ordinateur */
@@ -134,20 +137,17 @@ h3 {
  /*pour le 3 colona avec phone*/
 
  .div1{
-    display: flex;
+    display: grid;
+    grid-template-columns: 324px 200px 324px;
+    grid-column-gap: 2px;
     align-items: center;
     text-align: center;
-    justify-content: center;
-    margin-left: 15%;
-    margin-right: 15%;
-    
+    justify-content: center;   
 }
 
 /*pour le phone du centre*/
 figure{
-    position: relative;
-    align-items: center;
-    justify-content: center;
+    position: relative;   
 }
 
 #sary{
@@ -155,18 +155,13 @@ figure{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    overflow: hidden;
 }
 /*pour le contoure du phone*/
 
-.div12 {
-    width: 40%;
-}
-.div13 {
-    width: 20%;
-}
-.div14 {
-    width: 40%;
-}
+
+
+
 
 .gauche {
     text-align: left;
@@ -178,14 +173,11 @@ figure{
 /*pour les icones*/
 .flex{
     display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
     padding: 10px 0px;
 }    
 .block {
     display: block;
-    float: left;
+    
 }
     
 /*pour la troisieme partie de contenue*/
@@ -207,20 +199,20 @@ figure{
 /*pour le quatriemme contenue*/
 .font4 {
     padding: 20px;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 20%;
+    margin-right: 20%;
     margin-top: 5%;
     align-items: center; 
 }
 /*pour les 3 Screenshot*/
 .flex1 {
     display: flex;
-    justify-content: center;
     align-items: center;
+    margin: auto;
     
 }
 .flex11 {
-    padding: 0 60px 0 0 ; 
+    padding: 0 65px 0 0 ; 
     width: 25%;
 
 }
@@ -228,25 +220,28 @@ figure{
 /*pour le photo(grida)*/
 .grida {
     position: relative;
-    padding: 0 90px 0 0;
+    padding:0 350px 80px 0;
 }
 .grida2 {
-    padding:0 0 0 80px ;
+    padding:0 0 0 166px ;
+    width: 414px;
 }
 .pika {
     position: absolute;
-    top: 35%;
-    right: 65%;
+    top: 36%;
 }
 /*pour le 2 colonnes*/
 .flex2{
     display: flex;
-    justify-content: flex-start  
+    justify-content: flex-start;  
+}
+.grandir {
+    font-size: 25px;
 }
 /*pour le dernier contenu*/
 .font5 {
-    margin-left: 15%;
-    margin-right: 5%;
+    margin-left: 18%;
+    margin-right: 8%;
     display: grid;
     grid-template-columns: 40% 20% 35%;
     justify-content: center;
@@ -273,29 +268,5 @@ h3{
     padding:0 20px 0 10px;
 }
 
-/*pour le responsive*/
 
-@media (max-width:768px)
 
-{
-    .div1{
-        display:inline-block;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        margin: 0;
-        padding: 0;
-        width: 100%;
-      
-    }
-    .div12 {
-        width: 100%;
-    }
-    .div13 {
-        width: 100%;
-    }
-    .div14 {
-        width: 100%;
-    }
-    
-}

@@ -1,0 +1,143 @@
+/*pour le responsive*/
+
+@media screen and (max-width:765px) {
+    /*pour le tout*/
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    /*pour le barre de navigation*/
+    
+    nav {
+        display: block;
+        margin: 0;
+    }
+    nav > ul > li:not(:nth-child(3)) {
+        display: none;
+        width: 1px;
+        visibility: hidden;
+    }
+    .img1 {
+        padding: 0;
+    }
+    /*pour le deuxiemme partie*/
+    .img2 {
+        align-items: center;
+        transform: translateY(60px);
+        justify-content: center;
+        width: 100%;   
+    }
+    button {
+        padding: 25px 70px;
+    }
+    p {
+        font-size: 20px;
+    }
+    h1 {
+        font-size: 42px ;
+    }
+
+    .h6 {
+        color: #fff;
+    }
+
+    .font2{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .elant{
+        padding: 0 10px;
+    }
+    #bory2{
+        display: none;
+    }
+    .size {
+        display: none;
+    }
+    .div1{
+        display: block;
+    }
+    .gauche {
+        text-align: center;
+    }
+    .droite {
+        text-align: center;
+    }
+    .font4 {
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        padding: 0;
+        margin-top: 40px;
+    }
+    .flex1 {
+        display: block;
+        margin: auto;
+        text-align: center;
+       
+    }
+    .flex11 {
+        padding: 20px;
+        align-items: center;
+        width: auto;
+      
+    }
+    .flex1 > .flex11 > img {
+        width: 450px; ;
+        height: 700px;
+        align-items: center;
+        justify-content: center;
+        padding: 0 0 20px 0;
+    }
+    h3 {
+        text-align: center;
+        margin: auto;
+        justify-content: center;
+       
+    }    
+    #none1 {
+        display: none;
+    }
+    .flex2 {
+        flex-direction: column;
+    }
+    #order {
+        order: 2;
+    }
+    .grida {
+        padding: 0 305px 37px 0;
+    }
+    .grida2 {
+        padding: 0 0 0 2px;
+    }
+    .pika {
+        top: 42%;
+        left: -2%;
+    }
+    .font5 {
+        display: block;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        padding: 100px 0 20px 0;
+    }
+
+    .footer {
+        margin: auto;
+        padding: auto;
+        text-align: center;
+        align-items: center;
+
+    }
+    .flex3{
+        display: block;
+        padding: 40px 0 20px 0;
+    }
+    .icone {
+        padding:0 40px 0 40px;
+        width: 40px;
+    }
+
+}
